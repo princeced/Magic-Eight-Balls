@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="animated-example" class="animated rollIn"></div>
+    <div id="first_element">
+        <header>
+            <h1 id="first_heading">Enter Your Name</h1>
+        </header>
+        <div id="first_inp_section">
+
+            <input type="text" id="username" class="user-name" placeholder="Enter Your Name">
+
+            <button id="submit" onclick="show()">Click Me</button>
+
+        </div>
+        <div class="error_msg">
+            <p id="errormsg" style="color: red; font-size: 30px;font-weight: bold;margin-top: 20px;"></p>
+        </div>
+    </div>
+
+
+    <div class="ball_divimg">
+        <div class="ball_img">
+            <img src="8ball.png" id="ball_eight" alt="ball image">
+        </div>
+
+    </div>
+    <script src="Magic_Eight_Ball.js"></script>
+</body>
+
+</html>

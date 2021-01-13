@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Eight Ball-Output</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div id="second_element">
+        <header>
+            <h1 id="second_heading">Lets Play</h1>
+        </header>
+        <div id="second_inp_section">
+
+            <input type="text" id="question" class="question_section" placeholder="Enter Your Question">
+
+
+
+            <button id="enter" onclick="enterMe()">Enter Me</button>
+
+
+            <button id="exit" onclick="window.location.href = 'index.html'">Exit</button>
+
+            <button id="tryagain" onclick="window.location.href = 'output.html'">Try Again</button>
+
+
+        </div>
+    </div>
+
+    <div class="ball_divimg">
+        <div class="ball_img">
+            <img src="8ball.png" id="ball_eight" alt="ball image">
+        </div>
+        <div class="answer_random">
+            <p id="quest_para"></p>
+        </div>
+        <div id="questions">
+            <h3>Click on questions to get prediction..</h3>
+            <ul>
+                <li onclick="playgame()">Will I win the lottery in 2021?</li>
+                <li onclick="playgame()">Will Donald Trump be our next President?</li>
+                <li onclick="playgame()">Will we get more snow this year than last year?</li>
+                <li onclick="playgame()">Should I order pizza tonight?</li>
+                <li onclick="playgame()">Well, should I cook dinner instead?</li>
+                <li onclick="playgame()">Should we do this again?</li>
+                <li onclick="playgame()">Should I skip my surgery and go on vacations?</li>
+                <li onclick="playgame()">Should I start dieting?</li>
+                <li onclick="playgame()">Will I buy a car in 2021?</li>
+                <li onclick="playgame()">Will I be millionare in 2021?</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="Magic_Eight_Ball.js"></script>
+</body>
+
+</html>
